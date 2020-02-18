@@ -8,13 +8,13 @@ tags: ["Python", "DepHell", "Dependencies Resolution"]
 
 If you are working with data scientists, he might not make requirements.txt when he write code in "notebook". And you often need to run the program on your PC, even though the program only ran on his machine. In this case, you may have to create python virtual envrironment without requirements.txt(or other dependencies list).
 
-Of course, if he who write the program could make it, it would be the easiest solution. But when it is impossible, there are the following solution: you are programmer, so you can use the program. It's name is DepHell.
+Of course, if he who write the program could make it, it would be the easiest solution. But when it is impossible, there are the following solution: you are programmer, so you can use the program. It's DepHell.
 
 ## DepHell
 
 [dephell/dephell: Python project management\. Manage packages: convert between formats, lock, install, resolve, isolate, test, build graph, show outdated, audit\. Manage venvs, build package, bump version\.](https://github.com/dephell/dephell)
 
-DepHell has many features. One of them is converting between formats, e.g. requirements.txt, Pipfile, setup.py something else. Especially, you can convert from your code: that is, it can be generated requirements.txt from import statements.
+DepHell has many features. One of them is converting between formats, e.g. requirements.txt, Pipfile, setup.py and so on. Especially, you can convert from your code: that is, it can be generated requirements.txt from import statements.
 
 ### Installation
 
